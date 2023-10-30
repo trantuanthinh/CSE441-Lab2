@@ -1,12 +1,7 @@
-import { View } from "react-native";
-import style from "./style";
+import CalculatorScreen from "./View/CalculatorScreen";
+
 export default function App() {
-
   return (
-    <View style={style.background} >
-      <View style={style.container}>
-
-      </View>
-    </View>
+    <CalculatorScreen />
   )
 }
